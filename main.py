@@ -8,7 +8,7 @@ app = FastAPI(
         description = 'Predicting Water Portability'
     )
 
-with open ('C:/Users/MXFloresAr7/Desktop/shares/backend-python/mlops/project1/model.pkl','rb') as f:
+with open ('model.pkl','rb') as f:
     model = pickle.load(f)
 
 
@@ -38,3 +38,4 @@ def model_prediction(water: Water):
 
     else:
         return 'Water is not Consumable'
+
