@@ -1,4 +1,4 @@
-﻿aiohappyeyeballs==2.6.1
+aiohappyeyeballs==2.6.1
 aiohttp==3.12.15
 aiohttp-retry==2.9.1
 aiosignal==1.4.0
@@ -76,7 +76,7 @@ pygtrie==2.5.0
 pyparsing==3.2.3
 python-dateutil==2.9.0.post0
 pytz==2025.2
-pywin32
+pywin32==
 PyYAML==6.0.2
 requests==2.32.4
 rich==14.1.0
@@ -110,5 +110,3 @@ voluptuous==0.15.2
 wcwidth==0.2.13
 yarl==1.20.1
 zc.lockfile==3.0.post1
-
-
